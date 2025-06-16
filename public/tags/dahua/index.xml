@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dahua on Safe CCTV Website</title>
+    <link>//localhost:1313/tags/dahua/</link>
+    <description>Recent content in Dahua on Safe CCTV Website</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/dahua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teknologi CCTV Terkini: Fitur AI dari Hikvision, Dahua, EZVIZ, Imou, dan Panasonic</title>
+      <link>//localhost:1313/post/cctv9/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/cctv9/</guid>
+      <description>Pelajari fitur-fitur canggih berbasis AI dari merek CCTV terbaik seperti Hikvision, Dahua, EZVIZ, Imou, dan Panasonic. Dapatkan referensi produk dan model terbaru.</description>
+    </item>
+  </channel>
+</rss>

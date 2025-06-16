@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Safe CCTV Website</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/index.xml">
+<link rel="alternate" type="application/json" href="//localhost:1313/index.json">
+<link rel="alternate" hreflang="en" href="//localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/">
+                <img src="/img/logo.png" alt="Logo" style="height: 50px; width: auto; object-fit: contain;">
+            </a>
+        </div>
+        <div class="nav-center">
+            <ul id="menu" class="menu">
+                <li class="menu-item">
+                    <a href="//localhost:1313/post/" title="Artikel">Artikel</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/about/" title="Tentang Kami">Tentang Kami</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/contact/" title="Hubungi Kami">Hubungi Kami</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/categories/" title="Kategori">Kategori</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/tags/" title="Tag">Tag</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/archives/" title="Arsip">Arsip</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/search/" title="🔍 Cari (Alt &#43; /)" accesskey=/>🔍 Cari</a>
+                </li>
+                <li class="menu-item">
+                    <a href="//localhost:1313/" title="Beranda">Beranda</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="/search" class="search-icon" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </a>
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <div class="menu-container">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="//localhost:1313/post/" title="Artikel">Artikel</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/about/" title="Tentang Kami">Tentang Kami</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/contact/" title="Hubungi Kami">Hubungi Kami</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/categories/" title="Kategori">Kategori</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/tags/" title="Tag">Tag</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/archives/" title="Arsip">Arsip</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/search/" title="🔍 Cari (Alt &#43; /)" accesskey=/>🔍 Cari</a>
+            </li>
+            <li class="menu-item">
+                <a href="//localhost:1313/" title="Beranda">Beranda</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.dark {
+    --bg: #1a1a1a;
+    --text: #ffffff;
+    --primary: #1a73e8;
+    --secondary: #34a853;
+    --entry: #2d2d2d;
+    --border: #404040;
+}
+
+:root {
+    --bg: #ffffff;
+    --text: #333333;
+    --primary: #1a73e8;
+    --secondary: #34a853;
+    --entry: #ffffff;
+    --border: #e0e0e0;
+}
+
+ 
+.header {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+ 
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-item a:hover {
+    color: var(--primary);
+}
+
+.menu-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.menu-item a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+ 
+.search-icon {
+    display: none !important;
+}
+
+ 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: var(--text);
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+ 
+.menu-container {
+    display: none;  
+}
+
+ 
+@media (max-width: 768px) {
+    .header {
+        position: fixed;
+        background: var(--bg);
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .nav {
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .logo img {
+        height: 35px;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        position: relative;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .search-icon {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
+        color: var(--text);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin-right: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        transition: all 0.3s ease;
+        z-index: 1001;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: var(--text);
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+
+    .menu-container {
+        display: block;  
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background: var(--bg);
+        padding: 80px 20px 20px;
+        transition: 0.3s;
+        z-index: 999;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+        overflow-y: auto;
+    }
+
+    .menu-container.active {
+        right: 0;
+    }
+
+    .menu-container .menu {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-container .menu-item {
+        width: 100%;
+    }
+
+    .menu-container .menu-item a {
+        display: block;
+        padding: 12px 0;
+        font-size: 1.2em;
+        border-bottom: 1px solid var(--border);
+        color: var(--text);
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .menu-container .menu-item a:hover {
+        padding-left: 10px;
+        color: var(--primary);
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+
+ 
+.dark .header {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.dark .menu-item a {
+    color: var(--text);
+}
+
+.dark .menu-item a:hover {
+    color: var(--primary);
+}
+
+.dark .search-icon {
+    color: var(--text);
+}
+
+.dark .search-icon:hover {
+    color: var(--primary);
+}
+
+.dark .hamburger span {
+    background: var(--text);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const menuContainer = document.querySelector('.menu-container');
+    const body = document.body;
+    const header = document.querySelector('.header');
+
+    
+    body.style.paddingTop = header.offsetHeight + 'px';
+
+    if (hamburger && menuContainer) {
+        hamburger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            this.classList.toggle('active');
+            menuContainer.classList.toggle('active');
+            body.classList.toggle('menu-open');
+        });
+
+        
+        document.addEventListener('click', function(e) {
+            if (!menuContainer.contains(e.target) && !hamburger.contains(e.target) && menuContainer.classList.contains('active')) {
+                hamburger.classList.remove('active');
+                menuContainer.classList.remove('active');
+                body.classList.remove('menu-open');
+            }
+        });
+
+        
+        const menuItems = document.querySelectorAll('.menu-container .menu-item a');
+        menuItems.forEach(item => {
+            item.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                menuContainer.classList.remove('active');
+                body.classList.remove('menu-open');
+            });
+        });
+
+        
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                hamburger.classList.remove('active');
+                menuContainer.classList.remove('active');
+                body.classList.remove('menu-open');
+            }
+        });
+    }
+});
+</script>
+
+<div class="hero-section" style="position: relative; height: 100vh; overflow: hidden;">
+    <video id="heroVideo" autoplay loop playsinline muted style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;" preload="auto">
+        <source src="/video/background.mp4" type="video/mp4">
+    </video>
+    <style>
+         
+        #heroVideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            transition: transform 0.5s ease;
+        }
+
+        #heroVideo:hover {
+            transform: scale(1.05);
+        }
+
+         
+        .hero-content {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+         
+        .cta-button {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+
+        .cta-button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s ease, height 0.6s ease;
+        }
+
+        .cta-button:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+
+         
+        .partner-logo {
+            transition: all 0.3s ease;
+            filter: grayscale(30%) opacity(0.8);
+        }
+
+        .partner-logo:hover {
+            filter: grayscale(0%) opacity(1);
+            transform: scale(1.1);
+        }
+
+         
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+         
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+
+         
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-5px) scale(1.1);
+        }
+
+         
+        .promo-banner {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .promo-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent,
+                rgba(255,255,255,0.1),
+                transparent
+            );
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% {
+                transform: translateX(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) rotate(45deg);
+            }
+        }
+    </style>
+    <div class="hero-content" style="position: relative; z-index: 1; background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; text-align: center; color: white;">
+        <h1 style="font-size: 4em; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5), -2px -2px 4px rgba(255,255,255,0.1); font-weight: 800; letter-spacing: 1px; background: linear-gradient(to right, #ffffff, #e6e6e6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));">Selamat Datang di Safe CCTV</h1>
+        <p style="font-size: 1.6em; max-width: 800px; margin: 0 auto 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5), -2px -2px 4px rgba(255,255,255,0.1); font-weight: 500; background: linear-gradient(to right, #ffffff, #e6e6e6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));">Solusi Keamanan Terpercaya untuk Rumah dan Bisnis Anda</p>
+        <div class="cta-buttons" style="margin-bottom: 40px;">
+            <a href="https://wa.me/628983997569" target="_blank" class="cta-button" style="background-color: #007bff; color: white; padding: 15px 40px; border-radius: 5px; text-decoration: none; margin: 0 10px; display: inline-block; font-size: 1.1em; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">Hubungi Kami</a>
+            <a href="https://wa.me/628983997569" target="_blank" class="cta-button" style="background-color: transparent; color: white; padding: 15px 40px; border: 2px solid white; border-radius: 5px; text-decoration: none; margin: 0 10px; display: inline-block; font-size: 1.1em; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">Konsultasi Gratis</a>
+        </div>
+    </div>
+</div>
+
+<style>
+ 
+@media (max-width: 768px) {
+    .hero-section {
+        height: 100vh;
+        padding-top: 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2em !important;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        padding: 0 20px;
+    }
+
+    .hero-section p {
+        font-size: 1.2em !important;
+        margin-bottom: 25px;
+        line-height: 1.4;
+        padding: 0 25px;
+    }
+
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .cta-buttons a {
+        width: 100%;
+        margin: 0;
+        padding: 12px 20px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .cta-buttons a:hover {
+        transform: translateY(-2px);
+    }
+}
+
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-section h1 {
+        font-size: 3em !important;
+    }
+
+    .hero-section p {
+        font-size: 1.4em !important;
+    }
+
+    .cta-buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cta-buttons a {
+        padding: 12px 30px;
+    }
+}
+</style>
+
+
+<div class="partner-section" style="background: #ffffff; padding: 60px 20px; text-align: center;">
+    <h2 style="color: #1a73e8; margin-bottom: 40px; font-size: 2.2em;">Partner Resmi Kami</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 40px; max-width: 1200px; margin: 0 auto;">
+        <img src="/img/hikvision.svg" alt="Hikvision" class="partner-logo" style="height: 30px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/hilook.jpg" alt="HiLook" class="partner-logo" style="height: 40px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/ezviz.png" alt="EZVIZ" class="partner-logo" style="height: 40px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/dahua.svg" alt="Dahua" class="partner-logo" style="height: 35px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/imou.png" alt="Imou" class="partner-logo" style="height: 25px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/panasonic.png" alt="Panasonic" class="partner-logo" style="height: 45px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+        <img src="/img/samsung.svg" alt="Samsung" class="partner-logo" style="height: 180px; filter: grayscale(30%); opacity: 0.8; transition: all 0.3s ease;">
+    </div>
+</div>
+
+
+<div class="promo-banner" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); padding: 30px; text-align: center; margin: 40px 0;">
+    <p style="margin: 0; font-size: 1.4em;">
+        🎉 <a href="/categories/promo--diskon-safe-cctv/" style="color:#f97316; font-weight:bold; text-decoration: none;">Lihat Promo & Diskon SAFE CCTV</a> dan dapatkan penawaran spesial hari ini!
+    </p>
+</div>
+
+
+<div class="features-grid" style="max-width: 1200px; margin: 60px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+    
+    <div class="feature-card" style="background: #e8f0fe; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: all 0.3s ease;">
+        <h3 style="color: #1a73e8; margin-top: 0; font-size: 1.5em;">⭐ Mengapa Memilih SAFE CCTV?</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #34a853; font-size: 1.2em;">✅</span> Konsultasi gratis untuk kebutuhan keamanan Anda
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #34a853; font-size: 1.2em;">✅</span> Produk original dengan garansi resmi
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #34a853; font-size: 1.2em;">✅</span> Instalasi cepat dan profesional
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #34a853; font-size: 1.2em;">✅</span> Harga bersahabat dan kompetitif
+            </li>
+        </ul>
+    </div>
+
+    
+    <div class="feature-card" style="background: #e8f0fe; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: all 0.3s ease;">
+        <h3 style="color: #1a73e8; margin-top: 0; font-size: 1.5em;">🛠️ Layanan Kami</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #1a73e8; font-size: 1.2em;">📹</span> Pemasangan CCTV profesional
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #1a73e8; font-size: 1.2em;">🔧</span> Perawatan dan perbaikan berkala
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #1a73e8; font-size: 1.2em;">💬</span> Konsultasi gratis
+            </li>
+            <li style="margin: 15px 0; display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                <span style="color: #1a73e8; font-size: 1.2em;">⚡</span> Layanan 24 jam
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="contact-section" style="background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%); padding: 60px 20px; color: white;">
+    <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+        
+        <div class="contact-card" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+            <h3 style="color: white; margin-bottom: 20px; font-size: 1.5em;">📍 Lokasi Kami</h3>
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+                <strong>SAFE CCTV</strong><br>
+                Jl. Anggrek Rosliana IV No. 1<br>
+                Kemanggisan, Palmerah<br>
+                Jakarta Barat 11480<br>
+                Indonesia
+            </p>
+            <a href="https://maps.app.goo.gl/omfqcwFVt5xTWXsd6" target="_blank" class="cta-button" style="display: inline-block; background: white; color: #1a73e8; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: all 0.3s ease;">
+                Lihat di Google Maps
+            </a>
+        </div>
+
+        
+        <div class="contact-card" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+            <h3 style="color: white; margin-bottom: 20px; font-size: 1.5em;">📞 Hubungi Kami</h3>
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+                <strong>Telepon:</strong><br>
+                <a href="tel:+628983997569" style="color: white; text-decoration: none;">+62 898-3997-569</a><br><br>
+                <strong>Email:</strong><br>
+                <a href="mailto:admin@safecctv.my.id" style="color: white; text-decoration: none;">admin@safecctv.my.id</a>
+            </p>
+            <a href="https://wa.me/628983997569" target="_blank" class="cta-button" style="display: inline-block; background: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: all 0.3s ease;">
+                Chat via WhatsApp
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="social-section" style="text-align: center; padding: 60px 20px; background: #f8f9fa;">
+    <h2 style="color: #1a73e8; font-size: 2em; margin-bottom: 30px;">📲 Terhubung dengan Kami</h2>
+    <p style="color: #666; margin-bottom: 40px; font-size: 1.2em;">Ikuti kami di media sosial untuk informasi terbaru dan penawaran menarik</p>
+    <div style="display: flex; gap: 25px; justify-content: center; margin: 30px 0;">
+        <a href="https://facebook.com/safecctv" target="_blank" class="social-icon" style="text-decoration: none; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/fluency/48/1a73e8/facebook-new.png" alt="Facebook" style="width: 48px; height: 48px;"/>
+        </a>
+        <a href="https://instagram.com/safecctv" target="_blank" class="social-icon" style="text-decoration: none; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/fluency/48/1a73e8/instagram-new.png" alt="Instagram" style="width: 48px; height: 48px;"/>
+        </a>
+        <a href="https://tiktok.com/@safecctv" target="_blank" class="social-icon" style="text-decoration: none; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/color/48/1a73e8/tiktok--v1.png" alt="TikTok" style="width: 48px; height: 48px;"/>
+        </a>
+        <a href="https://youtube.com/safecctv" target="_blank" class="social-icon" style="text-decoration: none; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/color/48/1a73e8/youtube-play.png" alt="YouTube" style="width: 48px; height: 48px;"/>
+        </a>
+        <a href="https://linkedin.com/company/safe-cctv" target="_blank" class="social-icon" style="text-decoration: none; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/fluency/48/1a73e8/linkedin.png" alt="LinkedIn" style="width: 48px; height: 48px;"/>
+        </a>
+    </div>
+</div>
+
+
+<div class="footer-banner" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%); color: white;">
+    <p style="font-size: 1.4em; margin: 0;">
+        SAFE CCTV – Solusi Keamanan Terpercaya untuk Rumah dan Bisnis Anda
+    </p>
+</div>
+
+<main class="main"> 
+
+<article class="first-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/cctv-ai.png" alt="CCTV AI">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rekomendasi Paket CCTV Hemat untuk Pengguna Rumahan dan UMKM
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>📹 Rekomendasi Paket CCTV Hemat untuk Pengguna Rumahan dan UMKM Keamanan adalah prioritas utama, baik untuk rumah maupun usaha kecil dan menengah (UMKM). Namun, anggaran terbatas seringkali menjadi kendala dalam memilih sistem pengawasan yang efektif. Berikut ini adalah beberapa rekomendasi paket CCTV hemat yang cocok untuk kebutuhan Anda.
+🏠 Untuk Pengguna Rumahan 1. TP-Link Tapo C200 Harga: Rp450.000 Fitur: Resolusi Full HD 1080p Rotasi 360° horizontal dan 114° vertikal Night vision Deteksi gerakan dan pelacakan otomatis Audio dua arah Mode privasi Kamera ini mudah dipasang dan dioperasikan melalui aplikasi Tapo Camera, memungkinkan pengawasan hingga 32 kamera sekaligus. :contentReference[oaicite:7]{index=7}:contentReference[oaicite:8]{index=8}
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-06 00:00:00 +0000 UTC'>May 6, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;285 words</footer>
+  <a class="entry-link" aria-label="post link to Rekomendasi Paket CCTV Hemat untuk Pengguna Rumahan dan UMKM" href="//localhost:1313/post/cctv10/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/hilook-1.jpg" alt="Paket Promo CCTV HiLook 2 Kamera">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Promo Paket CCTV HiLook 4CH 2 Kamera – Rp 2.650.000 Lengkap &amp; Gratis Pemasangan!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Paket hemat CCTV HiLook by Hikvision – Kualitas Terbaik dengan Harga Terjangkau!
+🔥 Promo Terbatas – Hanya Rp 2.650.000 SAFE CCTV menghadirkan paket CCTV HiLook 2MP 4 Channel dengan kualitas video jernih, perangkat lengkap, dan GRATIS pemasangan. Dilengkapi fitur pemantauan langsung dari smartphone.
+🎯 Spesifikasi Lengkap Paket 📷 2 Kamera CCTV HiLook 2MP
+1 Kamera Indoor 1 Kamera Outdoor Bullet 🖥️ DVR HiLook by Hikvision 4 Channel
+💾 Hard Disk 500GB Seagate
+🔌 Power Supply Hikvision 4 Channel
+🧵 Kabel Coaxial RG6 – 100 Meter
+🔧 4 Jack BNC &#43; 2 Jack DC
+🌐 Kabel LAN 5 Meter
+📺 Kabel HDMI 2 Meter
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-02 00:00:00 +0000 UTC'>May 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;173 words</footer>
+  <a class="entry-link" aria-label="post link to Promo Paket CCTV HiLook 4CH 2 Kamera – Rp 2.650.000 Lengkap & Gratis Pemasangan!" href="//localhost:1313/post/cctv8/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/cctv-ai.png" alt="CCTV AI">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Teknologi CCTV Terkini: Fitur AI dari Hikvision, Dahua, EZVIZ, Imou, dan Panasonic
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🔍 Teknologi CCTV Terkini: Fitur AI dari Hikvision, Dahua, EZVIZ, Imou, dan Panasonic Dalam era digital saat ini, teknologi kecerdasan buatan (AI) telah menjadi bagian integral dalam sistem pengawasan keamanan. Berbagai merek ternama telah mengintegrasikan AI ke dalam produk CCTV mereka untuk meningkatkan efisiensi dan akurasi dalam pemantauan. Berikut adalah ulasan mengenai fitur AI dari beberapa merek CCTV terkemuka:
+🎯 Hikvision – AcuSense &amp; Deep Learning Hikvision mengembangkan teknologi AcuSense yang menggabungkan algoritma deep learning untuk mendeteksi manusia dan kendaraan secara real-time. Teknologi ini membantu mengurangi alarm palsu yang disebabkan oleh gerakan non-manusia seperti hewan atau dedaunan. Kamera cctv Hikvision AI
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-02 00:00:00 +0000 UTC'>May 2, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;429 words</footer>
+  <a class="entry-link" aria-label="post link to Teknologi CCTV Terkini: Fitur AI dari Hikvision, Dahua, EZVIZ, Imou, dan Panasonic" href="//localhost:1313/post/cctv9/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/hik4chcolour.jpg" alt="Paket Promo Hikvision 3K 4CH">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Paket Promo CCTV Hikvision 4CH ColorVu Audio 3K – Lengkap &amp; Gratis Instalasi!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 🎉 Promo Spesial CCTV Hikvision ColorVu Audio 3K – Hanya Rp 7.350.000 Sedang cari paket CCTV dengan kualitas gambar tinggi dan lengkap pemasangannya?
+SAFE CCTV menghadirkan penawaran terbaik untuk paket Hikvision 4CH 3K ColorVu Audio dengan fitur unggulan dan perlengkapan super lengkap. Cocok untuk rumah, toko, atau kantor Anda!
+🔍 Spesifikasi Utama Paket 📹 4 Kamera CCTV Hikvision ColorVu 3K Audio Resolusi 5MP CMOS Warna siang &amp; malam (ColorVu 24 jam) Mikrofon built-in (audio) 📺 DVR Hikvision 4 Channel 🔧 Gratis Instalasi oleh teknisi profesional 💽 Hard Disk CCTV (1000GB original) 🔌 Kabel Coaxial CCTV 🔌 Power Supply Adapter &amp; Konektor BNC 🔄 Bonus LAN Cable &amp; Splitter 🛠️ Keunggulan Paket Ini ✅ Gambar jernih berwarna siang dan malam
+✅ Rekam dengan audio jernih berkat mic bawaan
+✅ Semua alat sudah tersedia – tinggal pasang!
+✅ GRATIS pemasangan oleh tim SAFE CCTV
+✅ Garansi resmi 1 tahun tukar baru
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-01 00:00:00 +0000 UTC'>May 1, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;235 words</footer>
+  <a class="entry-link" aria-label="post link to Paket Promo CCTV Hikvision 4CH ColorVu Audio 3K – Lengkap & Gratis Instalasi!" href="//localhost:1313/post/cctv6/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/paket-dahua-heroA12mp.jpg" alt="Paket Dahua Hero A1 2MP">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Promo CCTV Dahua Hero A1 2MP – WiFi Indoor Smart Camera &#43; Bonus Lengkap!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>![Promo Dahua Hero A1 – SAFE CCTV] Dahua Hero A1 2MP – Kamera Indoor WiFi Pintar dengan Harga Terbaik!
+🎉 Promo Spesial Dahua Hero A1 2MP – Hanya Rp 750.000 Kini saatnya mengamankan rumah atau kantor Anda dengan kamera CCTV pintar dan harga hemat!
+SAFE CCTV menghadirkan promo terbatas untuk kamera Dahua Hero A1 2MP Indoor Pan Tilt WiFi CCTV lengkap dengan pemasangan dan aksesoris GRATIS!
+🔍 Fitur Unggulan 🎥 Resolusi 2MP HD – Gambar tajam &amp; jernih 🧠 Human Detection – Deteksi pergerakan manusia secara otomatis 🔄 Smart Tracking – Kamera mengikuti gerakan secara otomatis 📡 360° Pan &amp; Tilt – Pengawasan menyeluruh tanpa blind spot 🎙️ Built-in Microphone – Dengarkan suara langsung dari kamera 📶 Koneksi WiFi – Mudah dikontrol melalui aplikasi smartphone 🎁 BONUS DARI SAFE CCTV ✅ Gratis Instalasi Indoor
+✅ Gratis Kabel Listrik
+✅ Gratis SD Card 32GB
+✅ Gratis Steker &amp; Stop Kontak
+✅ Garansi Resmi 1 Tahun tukar baru ✅ Layanan Cepat &amp; Profesional
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-01 00:00:00 +0000 UTC'>May 1, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;216 words</footer>
+  <a class="entry-link" aria-label="post link to Promo CCTV Dahua Hero A1 2MP – WiFi Indoor Smart Camera &#43; Bonus Lengkap!" href="//localhost:1313/post/cctv7/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/hikvision.jpg" alt="cctv hikvision">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Panduan Lengkap Memilih CCTV Hikvision untuk Keamanan Rumah
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+Contoh kamera CCTV Hikvision untuk penggunaan rumah tangga.
+Di era modern ini, sistem keamanan rumah menjadi kebutuhan penting bagi banyak orang. Salah satu pilihan terbaik yang sering direkomendasikan adalah CCTV dari Hikvision, produsen kamera pengawas ternama asal Tiongkok yang dikenal dengan teknologi mutakhir dan kualitas tinggi. Namun, banyaknya pilihan model dan fitur bisa membuat calon pengguna bingung. Berikut adalah panduan lengkap dalam memilih CCTV Hikvision yang tepat untuk rumah Anda.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-29 00:00:00 +0000 UTC'>April 29, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;557 words</footer>
+  <a class="entry-link" aria-label="post link to Panduan Lengkap Memilih CCTV Hikvision untuk Keamanan Rumah" href="//localhost:1313/post/cctv4/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/Ezviz-1.jpg" alt="promo ezviz c6n">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Promo Menarik Ezviz C6N di SAFE CCTV – Gratis Instalasi &amp; Aksesoris Lengkap!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+Dapatkan promo menarik hanya di SAFE CCTV!
+🎉 PROMO TERBATAS: Ezviz C6N Hanya Rp800.000! Dalam rangka meningkatkan keamanan rumah Anda, SAFE CCTV menghadirkan promo spesial untuk kamera Ezviz C6N Smart Wi-Fi Pan &amp; Tilt Camera hanya Rp800.000! Dilengkapi dengan fitur canggih dan hadiah menarik, ini adalah pilihan terbaik untuk perlindungan rumah Anda.
+🔍 Fitur Unggulan Ezviz C6N 🎥 Full HD 1080p 🎙️ Two-Way Talk (bicara dua arah) 🔄 Smart Tracking (pelacakan otomatis) 📡 Pan &amp; Tilt 360° (putaran motorik) 🌙 Night Vision IR pintar hingga 10 meter 📱 Dukungan aplikasi di Android &amp; iOS 💥 BONUS PROMO SAFE CCTV Setiap pembelian kamera Ezviz C6N selama promo, Anda akan mendapatkan:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-29 00:00:00 +0000 UTC'>April 29, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;189 words</footer>
+  <a class="entry-link" aria-label="post link to Promo Menarik Ezviz C6N di SAFE CCTV – Gratis Instalasi & Aksesoris Lengkap!" href="//localhost:1313/post/cctv5/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/blog-1.jpg" alt="Cover cara pasang CCTV">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cara Pasang CCTV Sendiri dan Alat-alat yang Dibutuhkan, Ternyata Bukan Hanya Kamera!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Panduan lengkap pasang CCTV sendiri, alat-alat yang dibutuhkan, dan tips instalasi sistem pengawasan di rumah atau kantor.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-27 16:07:40 +0000 UTC'>April 27, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;294 words</footer>
+  <a class="entry-link" aria-label="post link to Cara Pasang CCTV Sendiri dan Alat-alat yang Dibutuhkan, Ternyata Bukan Hanya Kamera!" href="//localhost:1313/post/second/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/cctv-partner.png" alt="Safe CCTV Partner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mengapa Safe Cctv Cocok Sebagai Patner Bisnis Anda?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>SAFE CCTV adalah UMKM resmi terdaftar di Kementerian Investasi dan Hilirisasi dengan Nomor Induk Berusaha. Sejak 2022, kami menyediakan solusi keamanan melalui penjualan dan pemasangan sistem CCTV berkualitas tinggi untuk kebutuhan residensial, komersial, dan industry.
+Kami menawarkan produk CCTV dari merek ternama dengan teknologi terkini seperti resolusi 4K, night vision, motion detection, dan cloud-based monitoring. Didukung tim ahli, kami memberikan jasa pemasangan profesional, cepat, dan sesuai standar keamanan tertinggi.
+Tim ahli kami selalu mengutamakan kejujuran, transparansi dan hasil terbaik karena kepercayaan dan kepuasan anda membuat kami bahagia.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-28 00:00:00 +0000 UTC'>April 28, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;333 words</footer>
+  <a class="entry-link" aria-label="post link to Mengapa Safe Cctv Cocok Sebagai Patner Bisnis Anda?" href="//localhost:1313/post/cctv3/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="//localhost:1313/img/cctv-article.jpg" alt="CCTV Security System">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pentingnya Memasang CCTV: Solusi Keamanan Terbaik untuk Rumah dan Bisnis Anda
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dalam era modern seperti sekarang, kebutuhan akan sistem keamanan yang andal semakin meningkat. Salah satu solusi terbaik untuk melindungi rumah, kantor, atau bisnis Anda adalah dengan memasang CCTV (Closed Circuit Television). Tidak hanya berfungsi sebagai alat pengawas, CCTV juga menjadi bukti visual yang dapat diandalkan untuk berbagai keperluan.
+Mengapa CCTV Penting untuk Keamanan? 1. Mencegah Kejahatan Pemasangan kamera CCTV dapat secara efektif mencegah tindakan kriminal seperti pencurian, perampokan, dan vandalisme. Pelaku kejahatan akan berpikir dua kali sebelum bertindak jika mengetahui area tersebut diawasi kamera.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-20 00:00:00 +0000 UTC'>March 20, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;322 words</footer>
+  <a class="entry-link" aria-label="post link to Pentingnya Memasang CCTV: Solusi Keamanan Terbaik untuk Rumah dan Bisnis Anda" href="//localhost:1313/post/cctv2/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Safe CCTV Website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

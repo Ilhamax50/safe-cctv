@@ -1,0 +1,119 @@
+baseURL        = ""
+languageCode   = "en-us"
+title          = "Safe CCTV Website"
+theme          = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML"]
+
+
+[params]
+  subtitle        = "safe cctv"
+  showPostCover   = true
+  showLogo        = true
+  logo            = "/img/logo.png"
+  showTitle       = true
+  showSearch      = true
+  homepageSections = ["profile", "services", "posts"]
+  showProfile     = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  enableEmoji     = true
+  ShowBreadCrumbs = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowWordCount = true
+
+
+  # Profile
+  [params.profile]
+    fullName      = "Safe CCTV"
+    avatar        = "/img/avatar.png"
+    avatarRounded = true
+    role          = "Layanan CCTV Profesional"
+    bio           = [
+      "Penyedia layanan CCTV terpercaya di Indonesia.",
+      "Menggunakan teknologi terkini untuk keamanan properti Anda.",
+      "Bersertifikasi dan berpengalaman lebih dari 5 tahun."
+    ]
+    github        = "safecctv"
+    linkedin      = "safe-cctv"
+    instagram     = "safecctv"
+    twitter       = "safecctv"
+    facebook      = "safecctv"
+    whatsapp      = "+628983997569"
+    youtube       = "safecctv"
+    tiktok        = "safecctv"
+
+  # Contact Information
+  [params.contact]
+    email        = "admin@safecctv.my.id"
+    phone        = "+62 8983997569"
+    address      = "Jl. Contoh No. 123, Kota, Indonesia"
+    workingHours = "Senin - Jumat: 08:00 - 17:00"
+    whatsapp     = "+62 8983997569"
+    mapEmbed     = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
+    formEnabled  = true
+
+  # Social Media Links
+  [params.social]
+    facebook     = "https://facebook.com/safecctv"
+    instagram    = "https://instagram.com/safecctv"
+    twitter      = "https://twitter.com/safecctv"
+    linkedin     = "https://linkedin.com/company/safe-cctv"
+    whatsapp     = "https://wa.me/628983997569"
+    youtube      = "https://youtube.com/safecctv"
+    tiktok       = "https://tiktok.com/@safecctv"
+
+  # SEO Settings
+  [params.seo]
+    description = "Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda"
+    keywords = "cctv, keamanan, pemasangan cctv, maintenance cctv, kamera keamanan"
+    author = "Safe CCTV Team"
+    image = "/img/og-image.jpg"
+
+  # custom CSS
+  customCSS      = ["css/extra.css"]
+
+  # Main Sections
+  mainSections = ["post"]
+[menu]
+  [[menu.main]]
+    name   = "Beranda"
+    url    = "/"
+    weight = 0
+
+  [[menu.main]]
+    name   = "Artikel"
+    url    = "/post/"
+    weight = 1
+
+  [[menu.main]]
+    name   = "Kategori"
+    url    = "/categories/"
+    weight = 4
+
+  [[menu.main]]
+    name   = "Tag"
+    url    = "/tags/"
+    weight = 5
+
+  [[menu.main]]
+    name   = "Arsip"
+    url    = "/archives/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "search"
+    name       = "🔍 Cari"
+    url        = "/search/"
+    weight     = 10
+
