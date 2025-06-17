@@ -80,7 +80,7 @@ Berikut adalah daftar merek CCTV terbaik yang populer dan direkomendasikan di In
 Hikvision adalah raksasa global dalam industri pengawasan video, dan dominasinya juga terasa kuat di Indonesia. Mereka dikenal dengan inovasi teknologi, kualitas produk yang unggul, dan beragam pilihan untuk berbagai segmen, mulai dari penggunaan rumahan hingga proyek berskala besar.
 
 ![Gambar CCTV Hikvision](/img/hikvision.png "CCTV Hikvision - Solusi Keamanan Profesional")
-**Sumber Gambar:** [hikvision.com]
+**Sumber Gambar:** [Situs Web Resmi Hikvision](https://www.hikvision.com)
 
 * **Kelebihan:** Kualitas gambar superior, teknologi canggih (AcuSense, ColorVu), pilihan produk sangat luas, jaringan distribusi dan dukungan purna jual yang kuat di Indonesia.
 * **Kekurangan:** Harga cenderung lebih tinggi untuk beberapa seri premium, antarmuka bisa sedikit kompleks bagi pemula.
@@ -91,7 +91,7 @@ Hikvision adalah raksasa global dalam industri pengawasan video, dan dominasinya
 Sebagai salah satu pemain kunci di pasar pengawasan global, Dahua menawarkan solusi CCTV yang inovatif dan terjangkau. Mereka bersaing ketat dengan Hikvision dalam hal teknologi dan kualitas.
 
 ![Gambar CCTV Dahua](/img/dahua.png "CCTV Dahua - Inovasi dan Keterjangkauan")
-**Sumber Gambar:** [dahuasecurity.com]
+**Sumber Gambar:** [Situs Web Resmi Dahua](https://www.dahuasecurity.com)
 
 * **Kelebihan:** Teknologi AI yang handal (SMD Plus, WizSense), harga kompetitif, *user-friendly interface*, pilihan produk yang lengkap.
 * **Kekurangan:** Beberapa fitur canggih mungkin memerlukan konfigurasi lebih lanjut.
@@ -102,7 +102,7 @@ Sebagai salah satu pemain kunci di pasar pengawasan global, Dahua menawarkan sol
 Imou adalah sub-merek dari Dahua yang berfokus pada pasar *smart home* dan CCTV nirkabel. Produk-produk Imou sangat populer karena kemudahan instalasi (*plug & play*) dan integrasi dengan ekosistem *smart home*.
 
 ![Gambar CCTV Imou](/img/imou2.png "CCTV Imou - Solusi Smart Home Praktis")
-**Sumber Gambar:** [imou.com]
+**Sumber Gambar:** [Situs Web Resmi Imou](https://www.imou.com)
 
 * **Kelebihan:** Instalasi sangat mudah, desain *stylish*, fitur *cloud storage*, harga terjangkau, cocok untuk DIY (Do It Yourself).
 * **Kekurangan:** Pilihan untuk sistem multi-kamera yang kompleks terbatas, sebagian besar bergantung pada koneksi Wi-Fi.
@@ -113,7 +113,7 @@ Imou adalah sub-merek dari Dahua yang berfokus pada pasar *smart home* dan CCTV 
 Mirip dengan Imou, EZVIZ adalah sub-merek dari Hikvision yang menyasar segmen konsumen. Produk-produk EZVIZ dikenal dengan desain yang modern, fitur pintar, dan kemudahan penggunaan melalui aplikasi *mobile*.
 
 ![Gambar CCTV EZVIZ](/img/ezviz2.png "CCTV EZVIZ - Desain Modern dan Fitur Pintar")
-**Sumber Gambar:** [ezviz.com]
+**Sumber Gambar:** [Situs Web Resmi Ezviz](https://www.ezviz.com)
 
 * **Kelebihan:** Instalasi mudah, desain kompak, integrasi dengan *smart home*, fitur deteksi manusia, harga bersaing.
 * **Kekurangan:** Lebih fokus pada kamera *standalone*, mungkin kurang ideal untuk sistem pengawasan skala besar.
@@ -124,7 +124,7 @@ Mirip dengan Imou, EZVIZ adalah sub-merek dari Hikvision yang menyasar segmen ko
 TP-Link, yang dikenal sebagai produsen perangkat jaringan, juga merambah pasar *smart home* dengan lini produk Tapo. CCTV Tapo menawarkan kombinasi harga terjangkau, kemudahan penggunaan, dan konektivitas yang stabil.
 
 ![Gambar CCTV TP-Link Tapo](/img/tapo.jpg "CCTV TP-Link Tapo - Keterjangkauan dan Kemudahan")
-**Sumber Gambar:** [tapo.com]
+**Sumber Gambar:** [Situs Web Resmi TP-Link Tapo](https://www.tapo.com)
 
 * **Kelebihan:** Sangat mudah diatur, harga sangat kompetitif, integrasi dengan ekosistem TP-Link, kualitas gambar yang baik di kelasnya.
 * **Kekurangan:** Pilihan fitur yang lebih standar dibandingkan merek profesional.
@@ -135,8 +135,7 @@ TP-Link, yang dikenal sebagai produsen perangkat jaringan, juga merambah pasar *
 Bardi adalah merek lokal yang sangat populer di Indonesia, fokus pada perangkat *smart home*. CCTV Bardi menawarkan kemudahan integrasi dengan ekosistem Bardi lainnya dan kontrol melalui satu aplikasi.
 
 ![Gambar CCTV Bardi](/img/bardi.jpg "CCTV Bardi - Produk Lokal Smart Home")
-**Sumber Gambar:** [bardi.co.id]
-
+**Sumber Gambar:** [Situs Web Resmi Bardi](https://www.bardi.co.id)
 * **Kelebihan:** Ekosistem *smart home* yang luas, dukungan lokal, harga terjangkau, mudah digunakan.
 * **Kekurangan:** Kualitas gambar dan fitur canggih mungkin tidak setara merek global papan atas.
 * **Cocok Untuk:** Pengguna yang sudah atau berencana membangun ekosistem *smart home* Bardi.
@@ -146,7 +145,7 @@ Bardi adalah merek lokal yang sangat populer di Indonesia, fokus pada perangkat 
 Xiaomi dikenal dengan produk-produk elektronik berkualitas dengan harga terjangkau, termasuk CCTV. Kamera CCTV Xiaomi menawarkan desain minimalis, fitur pintar, dan integrasi dengan aplikasi Mi Home.
 
 ![Gambar CCTV Xiaomi](/img/xiaomi.jpg "CCTV Xiaomi - Desain Minimalis dan Harga Terjangkau")
-**Sumber Gambar:** [mi.co.id]
+**Sumber Gambar:** [Situs Web Resmi Xiaomi](https://www.mi.co.id)
 
 * **Kelebihan:** Desain minimalis, harga sangat terjangkau, integrasi dengan ekosistem Xiaomi, fitur deteksi gerakan dan notifikasi.
 * **Kekurangan:** Beberapa model mungkin tidak dilengkapi fitur penglihatan malam yang optimal, garansi bisa bervariasi.
@@ -157,7 +156,7 @@ Xiaomi dikenal dengan produk-produk elektronik berkualitas dengan harga terjangk
 V380 Pro sebenarnya adalah nama aplikasi yang banyak digunakan oleh berbagai merek CCTV OEM (Original Equipment Manufacturer) di pasaran. Meskipun bukan satu merek tunggal, CCTV yang mendukung aplikasi V380 Pro sangat mudah ditemukan dan harganya sangat bervariasi.
 
 ![Gambar CCTV V380 Pro](/img/v380pro.jpg "CCTV V380 Pro - Pilihan Ekonomis")
-**Sumber Gambar:** [v380.org]
+**Sumber Gambar:** [Situs Web Resmi V380](https://www.v380.org)
 
 * **Kelebihan:** Harga sangat murah, banyak pilihan model, mudah didapatkan.
 * **Kekurangan:** Kualitas bisa sangat bervariasi antar produsen, dukungan purna jual seringkali kurang jelas, fitur terbatas.
@@ -168,7 +167,7 @@ V380 Pro sebenarnya adalah nama aplikasi yang banyak digunakan oleh berbagai mer
 SPC adalah merek elektronik lokal yang juga menawarkan berbagai produk CCTV. Mereka menawarkan solusi yang terjangkau dan mudah diakses di pasar Indonesia.
 
 ![Gambar CCTV SPC](/img/spc.jpg "CCTV SPC - Pilihan Lokal Terjangkau")
-**Sumber Gambar:** [spc-indo.com]
+**Sumber Gambar:** [Situs Web Resmi SPC](https://www.spc-indo.com)
 
 * **Kelebihan:** Harga ekonomis, mudah ditemukan di toko elektronik lokal, dukungan purna jual di Indonesia.
 * **Kekurangan:** Pilihan model dan fitur canggih mungkin terbatas, kualitas gambar standar.
@@ -179,7 +178,7 @@ SPC adalah merek elektronik lokal yang juga menawarkan berbagai produk CCTV. Mer
 Hilook adalah sub-merek lain dari Hikvision yang menargetkan segmen pasar yang lebih sensitif terhadap harga, namun tetap menawarkan kualitas dan teknologi dasar yang solid dari Hikvision.
 
 ![Gambar CCTV Hilook](/img/hilook.png "CCTV Hilook - Kualitas Hikvision dengan Harga Terjangkau")
-**Sumber Gambar:** [hikvision.com]
+**Sumber Gambar:** [Situs Web Resmi Hilook](https://www.hikvision.com)
 
 * **Kelebihan:** Kualitas Hikvision dengan harga lebih terjangkau, mudah digunakan, cocok untuk proyek skala kecil hingga menengah.
 * **Kekurangan:** Pilihan fitur canggih mungkin tidak selengkap seri Hikvision utama.
