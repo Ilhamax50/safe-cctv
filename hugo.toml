@@ -65,12 +65,12 @@ theme          = "PaperMod"
 
   # Social Media Links
   [params.social]
-    facebook     = "https://facebook.com/safecctv"
-    instagram    = "https://instagram.com/safecctv"
+    facebook     = "https://facebook.com/safecctvid"
+    instagram    = "https://www.instagram.com/safecctvindonesia/"
     twitter      = "https://twitter.com/safecctv"
-    linkedin     = "https://linkedin.com/company/safe-cctv"
+    linkedin     = "https://www.linkedin.com/in/fatah-ilham-maulana/"
     whatsapp     = "https://wa.me/628983997569"
-    youtube      = "https://youtube.com/safecctv"
+    youtube      = "https://www.youtube.com/@safe-cctv"
     tiktok       = "https://tiktok.com/@safecctv"
 
   # SEO Settings

@@ -54,19 +54,19 @@ menu:
     <h2 style="color: white; font-size: 2em; margin-bottom: 20px;">📲 Terhubung dengan Kami</h2>
     <p style="color: rgba(255,255,255,0.9); margin-bottom: 30px; font-size: 1.2em;">Ikuti kami di media sosial untuk informasi terbaru dan penawaran menarik</p>
     <div style="display: flex; gap: 25px; justify-content: center; margin: 30px 0;">
-      <a href="https://facebook.com/safecctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="https://facebook.com/safecctvid" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
         <img src="https://img.icons8.com/fluency/40/ffffff/facebook-new.png" alt="Facebook" style="width: 40px; height: 40px;"/>
       </a>
-      <a href="https://instagram.com/safecctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="https://www.instagram.com/safecctvindonesia/" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
         <img src="https://img.icons8.com/fluency/40/ffffff/instagram-new.png" alt="Instagram" style="width: 40px; height: 40px;"/>
       </a>
       <a href="https://tiktok.com/@safecctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
         <img src="https://img.icons8.com/color/40/ffffff/tiktok--v1.png" alt="TikTok" style="width: 40px; height: 40px;"/>
       </a>
-      <a href="https://youtube.com/safecctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="https://www.youtube.com/@safe-cctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
         <img src="https://img.icons8.com/color/40/ffffff/youtube-play.png" alt="YouTube" style="width: 40px; height: 40px;"/>
       </a>
-      <a href="https://linkedin.com/company/safe-cctv" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+      <a href="https://www.linkedin.com/in/fatah-ilham-maulana/" target="_blank" style="text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
         <img src="https://img.icons8.com/fluency/40/ffffff/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;"/>
       </a>
     </div>
