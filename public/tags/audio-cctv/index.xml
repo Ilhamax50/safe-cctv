@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audio CCTV on Safe CCTV Website</title>
-    <link>//localhost:1313/tags/audio-cctv/</link>
+    <link>http://localhost:1313/tags/audio-cctv/</link>
     <description>Recent content in Audio CCTV on Safe CCTV Website</description>
     <generator>Hugo -- 0.147.0</generator>
-    <language>en-us</language>
+    <language>id-id</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/audio-cctv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/audio-cctv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paket Promo CCTV Hikvision 4CH ColorVu Audio 3K – Lengkap &amp; Gratis Instalasi!</title>
-      <link>//localhost:1313/post/cctv6/</link>
+      <link>http://localhost:1313/post/cctv6/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/cctv6/</guid>
+      <guid>http://localhost:1313/post/cctv6/</guid>
       <description>Dapatkan paket CCTV Hikvision 4 Channel Audio 3K ColorVu hanya Rp7.350.000. Sudah termasuk 4 kamera, DVR, kabel, HDD, dan GRATIS pemasangan dari SAFE CCTV!</description>
     </item>
   </channel>

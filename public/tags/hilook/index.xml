@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>HiLook on Safe CCTV Website</title>
-    <link>//localhost:1313/tags/hilook/</link>
+    <link>http://localhost:1313/tags/hilook/</link>
     <description>Recent content in HiLook on Safe CCTV Website</description>
     <generator>Hugo -- 0.147.0</generator>
-    <language>en-us</language>
+    <language>id-id</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/hilook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hilook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Promo Paket CCTV HiLook 4CH 2 Kamera – Rp 2.650.000 Lengkap &amp; Gratis Pemasangan!</title>
-      <link>//localhost:1313/post/cctv8/</link>
+      <link>http://localhost:1313/post/cctv8/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/cctv8/</guid>
+      <guid>http://localhost:1313/post/cctv8/</guid>
       <description>Dapatkan paket CCTV HiLook 2MP lengkap dengan 2 kamera, DVR, HDD, kabel, dan bonus instalasi hanya Rp2.650.000. Bergaransi resmi 2 tahun!</description>
     </item>
   </channel>

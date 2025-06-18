@@ -1,5 +1,5 @@
-baseURL        = ""
-languageCode   = "en-us"
+baseURL        = "https://safecctv.my.id/"
+languageCode   = "id-id"
 title          = "Safe CCTV Website"
 theme          = "PaperMod"
 
