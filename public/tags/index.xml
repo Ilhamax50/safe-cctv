@@ -1,130 +1,347 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Safe Cctv Website</title>
-    <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on Safe Cctv Website</description>
+    <title>Tags on Safe CCTV Website</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Safe CCTV Website</description>
     <generator>Hugo -- 0.147.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-id</language>
+    <lastBuildDate>Tue, 17 Jun 2025 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CCTV</title>
-      <link>//localhost:1313/tags/cctv/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/cctv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ezviz C6N</title>
-      <link>//localhost:1313/tags/ezviz-c6n/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/ezviz-c6n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Garansi CCTV</title>
-      <link>//localhost:1313/tags/garansi-cctv/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/garansi-cctv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gratis Instalasi</title>
-      <link>//localhost:1313/tags/gratis-instalasi/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/gratis-instalasi/</guid>
+      <title>CCTV Global</title>
+      <link>http://localhost:1313/tags/cctv-global/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/cctv-global/</guid>
       <description></description>
     </item>
     <item>
       <title>Hikvision</title>
-      <link>//localhost:1313/tags/hikvision/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/hikvision/</guid>
+      <link>http://localhost:1313/tags/hikvision/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hikvision/</guid>
       <description></description>
     </item>
     <item>
-      <title>Keamanan Rumah</title>
-      <link>//localhost:1313/tags/keamanan-rumah/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/keamanan-rumah/</guid>
+      <title>Inovasi Hikvision</title>
+      <link>http://localhost:1313/tags/inovasi-hikvision/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/inovasi-hikvision/</guid>
       <description></description>
     </item>
     <item>
-      <title>Promo CCTV</title>
-      <link>//localhost:1313/tags/promo-cctv/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/promo-cctv/</guid>
+      <title>Pendiri Hikvision</title>
+      <link>http://localhost:1313/tags/pendiri-hikvision/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/pendiri-hikvision/</guid>
       <description></description>
     </item>
     <item>
-      <title>Teknologi</title>
-      <link>//localhost:1313/tags/teknologi/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/teknologi/</guid>
+      <title>Perkembangan CCTV</title>
+      <link>http://localhost:1313/tags/perkembangan-cctv/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/perkembangan-cctv/</guid>
       <description></description>
     </item>
     <item>
-      <title>DIY</title>
-      <link>//localhost:1313/tags/diy/</link>
-      <pubDate>Sun, 27 Apr 2025 16:07:40 +0000</pubDate>
-      <guid>//localhost:1313/tags/diy/</guid>
+      <title>Perusahaan CCTV Terbaik</title>
+      <link>http://localhost:1313/tags/perusahaan-cctv-terbaik/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/perusahaan-cctv-terbaik/</guid>
       <description></description>
     </item>
     <item>
-      <title>Bisnis</title>
-      <link>//localhost:1313/tags/bisnis/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/bisnis/</guid>
+      <title>Sejarah CCTV</title>
+      <link>http://localhost:1313/tags/sejarah-cctv/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/sejarah-cctv/</guid>
       <description></description>
     </item>
     <item>
-      <title>Instalasi</title>
-      <link>//localhost:1313/tags/instalasi/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/instalasi/</guid>
+      <title>Struktur Kepemilikan Hikvision</title>
+      <link>http://localhost:1313/tags/struktur-kepemilikan-hikvision/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/struktur-kepemilikan-hikvision/</guid>
       <description></description>
     </item>
     <item>
-      <title>Keamanan</title>
-      <link>//localhost:1313/tags/keamanan/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/keamanan/</guid>
+      <title>Teknologi Keamanan</title>
+      <link>http://localhost:1313/tags/teknologi-keamanan/</link>
+      <pubDate>Tue, 17 Jun 2025 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/teknologi-keamanan/</guid>
       <description></description>
     </item>
     <item>
-      <title>Maintenance</title>
-      <link>//localhost:1313/tags/maintenance/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/maintenance/</guid>
+      <title>CCTV Murah Terbaik</title>
+      <link>http://localhost:1313/tags/cctv-murah-terbaik/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/cctv-murah-terbaik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CCTV Terbaik</title>
+      <link>http://localhost:1313/tags/cctv-terbaik/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/cctv-terbaik/</guid>
       <description></description>
     </item>
     <item>
       <title>Kamera Pengawas</title>
-      <link>//localhost:1313/tags/kamera-pengawas/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/kamera-pengawas/</guid>
+      <link>http://localhost:1313/tags/kamera-pengawas/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/kamera-pengawas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keamanan Rumah</title>
+      <link>http://localhost:1313/tags/keamanan-rumah/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/keamanan-rumah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Merek CCTV Indonesia</title>
+      <link>http://localhost:1313/tags/merek-cctv-indonesia/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/merek-cctv-indonesia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perbandingan CCTV</title>
+      <link>http://localhost:1313/tags/perbandingan-cctv/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/perbandingan-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rekomendasi CCTV</title>
+      <link>http://localhost:1313/tags/rekomendasi-cctv/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/rekomendasi-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sistem Keamanan</title>
+      <link>http://localhost:1313/tags/sistem-keamanan/</link>
+      <pubDate>Mon, 16 Jun 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/sistem-keamanan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CCTV Murah</title>
+      <link>http://localhost:1313/tags/cctv-murah/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cctv-murah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paket CCTV Hemat</title>
+      <link>http://localhost:1313/tags/paket-cctv-hemat/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/paket-cctv-hemat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UMKM</title>
+      <link>http://localhost:1313/tags/umkm/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/umkm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI CCTV</title>
+      <link>http://localhost:1313/tags/ai-cctv/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dahua</title>
+      <link>http://localhost:1313/tags/dahua/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dahua/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EZVIZ</title>
+      <link>http://localhost:1313/tags/ezviz/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ezviz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gratis Instalasi</title>
+      <link>http://localhost:1313/tags/gratis-instalasi/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gratis-instalasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HiLook</title>
+      <link>http://localhost:1313/tags/hilook/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hilook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imou</title>
+      <link>http://localhost:1313/tags/imou/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/imou/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panasonic</title>
+      <link>http://localhost:1313/tags/panasonic/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/panasonic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promo CCTV</title>
+      <link>http://localhost:1313/tags/promo-cctv/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/promo-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SAFE CCTV</title>
+      <link>http://localhost:1313/tags/safe-cctv/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/safe-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart Camera</title>
+      <link>http://localhost:1313/tags/smart-camera/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smart-camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio CCTV</title>
+      <link>http://localhost:1313/tags/audio-cctv/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/audio-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ColorVu</title>
+      <link>http://localhost:1313/tags/colorvu/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/colorvu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dahua Hero A1</title>
+      <link>http://localhost:1313/tags/dahua-hero-a1/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dahua-hero-a1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gratis Pemasangan</title>
+      <link>http://localhost:1313/tags/gratis-pemasangan/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gratis-pemasangan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promo Hikvision</title>
+      <link>http://localhost:1313/tags/promo-hikvision/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/promo-hikvision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart CCTV</title>
+      <link>http://localhost:1313/tags/smart-cctv/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smart-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cctv</title>
+      <link>http://localhost:1313/tags/cctv/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ezviz C6N</title>
+      <link>http://localhost:1313/tags/ezviz-c6n/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ezviz-c6n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Garansi CCTV</title>
+      <link>http://localhost:1313/tags/garansi-cctv/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/garansi-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teknologi</title>
+      <link>http://localhost:1313/tags/teknologi/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/teknologi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DIY</title>
+      <link>http://localhost:1313/tags/diy/</link>
+      <pubDate>Sun, 27 Apr 2025 16:07:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bisnis</title>
+      <link>http://localhost:1313/tags/bisnis/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bisnis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instalasi</title>
+      <link>http://localhost:1313/tags/instalasi/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/instalasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keamanan</title>
+      <link>http://localhost:1313/tags/keamanan/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/keamanan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/tags/maintenance/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/maintenance/</guid>
       <description></description>
     </item>
     <item>
       <title>Memilih Cctv</title>
-      <link>//localhost:1313/tags/memilih-cctv/</link>
+      <link>http://localhost:1313/tags/memilih-cctv/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/memilih-cctv/</guid>
+      <guid>http://localhost:1313/tags/memilih-cctv/</guid>
       <description></description>
     </item>
     <item>
       <title>Pentingnya Cctv</title>
-      <link>//localhost:1313/tags/pentingnya-cctv/</link>
+      <link>http://localhost:1313/tags/pentingnya-cctv/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/pentingnya-cctv/</guid>
+      <guid>http://localhost:1313/tags/pentingnya-cctv/</guid>
       <description></description>
     </item>
     <item>
       <title>Sistem Keamanan Rumah</title>
-      <link>//localhost:1313/tags/sistem-keamanan-rumah/</link>
+      <link>http://localhost:1313/tags/sistem-keamanan-rumah/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/sistem-keamanan-rumah/</guid>
+      <guid>http://localhost:1313/tags/sistem-keamanan-rumah/</guid>
       <description></description>
     </item>
   </channel>

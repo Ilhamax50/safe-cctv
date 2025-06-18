@@ -2,6 +2,7 @@ baseURL        = "https://safecctv.my.id/"
 languageCode   = "id-id"
 title          = "Safe CCTV Website"
 theme          = "PaperMod"
+enableRobotsTXT = true
 
 [markup]
   [markup.goldmark]
