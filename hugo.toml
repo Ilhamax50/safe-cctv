@@ -10,12 +10,13 @@ theme          = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "Sitemap"]
-  taxonomy = ["HTML"]
+  taxonomy = ["HTML", "RSS", "Sitemap"]
 
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+  lastmod = "2006-01-02T15:04:05-07:00"
 
 [params]
   subtitle        = "safe cctv"
