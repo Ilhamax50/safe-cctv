@@ -9,9 +9,13 @@ theme          = "PaperMod"
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "Sitemap"]
   taxonomy = ["HTML"]
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
   subtitle        = "safe cctv"
