@@ -1,4 +1,4 @@
-baseURL        = "https://safecctv.my.id/"
+baseURL        = "https://www.safecctv.my.id/"
 languageCode   = "id-id"
 title          = "Safe CCTV Website"
 theme          = "PaperMod"
@@ -23,7 +23,7 @@ enableRobotsTXT = true
   subtitle        = "safe cctv"
   showPostCover   = true
   showLogo        = true
-  logo            = "/img/logo.png"
+  logo            = "/img/logo-safe-cctv.webp"
   showTitle       = true
   showSearch      = true
   homepageSections = ["profile", "services", "posts"]
@@ -42,7 +42,7 @@ enableRobotsTXT = true
   # Profile
   [params.profile]
     fullName      = "Safe CCTV"
-    avatar        = "/img/avatar.png"
+    avatar        = "/img/avatar.webp"
     avatarRounded = true
     role          = "Layanan CCTV Profesional"
     bio           = [
@@ -50,23 +50,23 @@ enableRobotsTXT = true
       "Menggunakan teknologi terkini untuk keamanan properti Anda.",
       "Bersertifikasi dan berpengalaman lebih dari 5 tahun."
     ]
-    github        = "safecctv"
-    linkedin      = "safe-cctv"
-    instagram     = "safecctv"
-    twitter       = "safecctv"
-    facebook      = "safecctv"
+    github        = "Safe CCTV"
+    linkedin      = "Safe CCTV"
+    instagram     = "safecctvindonesia"
+    twitter       = "Safe CCTV"
+    facebook      = "Safe CCTV"
     whatsapp      = "+628983997569"
-    youtube       = "safecctv"
-    tiktok        = "safecctv"
+    youtube       = "Safe CCTV"
+    tiktok        = "Safe CCTV"
 
   # Contact Information
   [params.contact]
     email        = "admin@safecctv.my.id"
     phone        = "+62 8983997569"
-    address      = "Jl. Contoh No. 123, Kota, Indonesia"
+    address      = "Jl. Anggrek Rosliana, Kemanggisan, Palmerah, Jakarta Barat, DKI Jakarta"
     workingHours = "Senin - Jumat: 08:00 - 17:00"
     whatsapp     = "+62 8983997569"
-    mapEmbed     = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
+    mapEmbed     = "https://maps.app.goo.gl/omfqcwFVt5xTWXsd6"
     formEnabled  = true
 
   # Social Media Links
@@ -82,9 +82,9 @@ enableRobotsTXT = true
   # SEO Settings
   [params.seo]
     description = "Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda"
-    keywords = "cctv, keamanan, pemasangan cctv, maintenance cctv, kamera keamanan"
+    keywords = "cctv, keamanan, pemasangan cctv, maintenance cctv, kamera keamanan, cctv kemanggisan, cctv jakarta barat"
     author = "Safe CCTV Team"
-    image = "/img/og-image.jpg"
+    image = "/img/logo-safe-cctv.webp"
 
   # custom CSS
   customCSS      = ["css/extra.css"]
