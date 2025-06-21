@@ -679,80 +679,90 @@ Jl. Anggrek Rosliana IV, Kemanggisan Palmerah, Jakarta Barat
     </li>
 </ul>
 
+
+    
+    <div id="post-stats" style="margin-top: 20px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+      <div id="like-container">
+        <button id="likeBtn">❤️ Suka (<span id="likeCount">0</span>)</button>
+      </div>
+      <div id="view-container" style="font-size: 0.9em; color: var(--secondary-text-color);">
+        <span>👁️ Dilihat <span id="viewCount">0</span> kali</span>
+      </div>
+    </div>
+
+    
+    <script type="module">
+      
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+      import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQg_DHBrxUqjbXyUoAFPWAIQuNZAD9wGs",
+        authDomain: "safe-cctv-blog-post-like.firebaseapp.com",
+        databaseURL: "https://safe-cctv-blog-post-like-default-rtdb.firebaseio.com",
+        projectId: "safe-cctv-blog-post-like",
+        storageBucket: "safe-cctv-blog-post-like.firebasestorage.app",
+        messagingSenderId: "985469144384",
+        appId: "1:985469144384:web:653bf30ebc78239690bea5",
+        measurementId: "G-DLGXGKW7WK"
+      };
+
+      
+      const pageId = "\/post\/panduan-lengkap-memilih-cctv-hikvision-untuk-keamanan-rumah\/".replace(/[.#$[\]/]/g, '_');
+      
+      
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase(app);
+
+      
+      const likeRef = ref(db, 'likes/' + pageId);
+      const likeButton = document.getElementById("likeBtn");
+      onValue(likeRef, (snapshot) => {
+        document.getElementById("likeCount").innerText = snapshot.val() || 0;
+      });
+      if (localStorage.getItem('liked-' + pageId)) {
+          likeButton.disabled = true;
+          likeButton.innerHTML = "❤️ Terima kasih!";
+      }
+      likeButton.addEventListener("click", () => {
+        runTransaction(likeRef, (currentLikes) => (currentLikes || 0) + 1);
+        likeButton.disabled = true;
+        likeButton.innerHTML = "❤️ Terima kasih!";
+        localStorage.setItem('liked-' + pageId, 'true');
+      });
+
+      
+      const viewRef = ref(db, 'views/' + pageId);
+      
+      runTransaction(viewRef, (currentViews) => (currentViews || 0) + 1);
+      
+      onValue(viewRef, (snapshot) => {
+        document.getElementById("viewCount").innerText = snapshot.val() || 0;
+      });
+    </script>
   </footer>
 </article>
     </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Safe CCTV Website</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script src="/js/theme-toggle.js"></script>
-<script>
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener("click", function (e) {
-                e.preventDefault();
-                var id = this.getAttribute("href").substr(1);
-                var targetElement = document.querySelector(`[id='${decodeURIComponent(id)}']`);
-                if (targetElement) {
-                    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                        targetElement.scrollIntoView({
-                            behavior: "smooth"
-                        });
-                    } else {
-                        targetElement.scrollIntoView();
-                    }
-                    if (id === "top") {
-                        history.replaceState(null, null, " ");
-                    } else {
-                        history.pushState(null, null, `#${id}`);
-                    }
-                }
-            });
-        });
-
-        
-        var mybutton = document.getElementById("top-link");
-        if (mybutton) {
-            window.onscroll = function () {
-                if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-                    mybutton.style.visibility = "visible";
-                    mybutton.style.opacity = "1";
-                } else {
-                    mybutton.style.visibility = "hidden";
-                    mybutton.style.opacity = "0";
-                }
-            };
-        }
-
-        
-        var themeToggle = document.getElementById("theme-toggle");
-        if (themeToggle) {
-            themeToggle.addEventListener("click", () => {
-                if (document.body.className.includes("dark")) {
-                    document.body.classList.remove('dark');
-                    localStorage.setItem("pref-theme", 'light');
-                } else {
-                    document.body.classList.add('dark');
-                    localStorage.setItem("pref-theme", 'dark');
-                }
-            });
-        }
-    });
-</script>
-</body>
+    <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__content" style="text-align: center; font-size: 0.9em; color: #666; padding-top: 1em;">
+        <p>&copy; 2025 Safe CCTV</p>
+  
+        <div style="margin: 0.5em 0;">
+          👁 <span id="busuanzi_value_site_pv">...</span> views | 
+          🧑‍🤝‍🧑 <span id="busuanzi_value_site_uv">...</span> visitors
+        </div>
+  
+        <p style="font-size: 0.8em; color: #999;">
+          Dibangun dengan <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> •
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> •
+          <a href="/kebijakan-privasi/">Privasi</a> •
+          <a href="/ketentuan-penggunaan/">Ketentuan</a>
+        </p>
+      </div>
+    </div>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  </footer>
+  </body>
 
 </html>

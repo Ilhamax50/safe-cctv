@@ -322,3 +322,9 @@
     padding: 0.75rem 1rem;
   }
 }
+#busuanzi_value_site_pv, #busuanzi_value_site_uv {
+  font-weight: bold;
+}
+.footer__content {
+  text-align: center;
+}

@@ -501,77 +501,26 @@ document.addEventListener('DOMContentLoaded', function() {
 <main class="main">
 <div class="not-found">404</div>
     </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Safe CCTV Website</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script src="/js/theme-toggle.js"></script>
-<script>
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener("click", function (e) {
-                e.preventDefault();
-                var id = this.getAttribute("href").substr(1);
-                var targetElement = document.querySelector(`[id='${decodeURIComponent(id)}']`);
-                if (targetElement) {
-                    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                        targetElement.scrollIntoView({
-                            behavior: "smooth"
-                        });
-                    } else {
-                        targetElement.scrollIntoView();
-                    }
-                    if (id === "top") {
-                        history.replaceState(null, null, " ");
-                    } else {
-                        history.pushState(null, null, `#${id}`);
-                    }
-                }
-            });
-        });
-
-        
-        var mybutton = document.getElementById("top-link");
-        if (mybutton) {
-            window.onscroll = function () {
-                if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-                    mybutton.style.visibility = "visible";
-                    mybutton.style.opacity = "1";
-                } else {
-                    mybutton.style.visibility = "hidden";
-                    mybutton.style.opacity = "0";
-                }
-            };
-        }
-
-        
-        var themeToggle = document.getElementById("theme-toggle");
-        if (themeToggle) {
-            themeToggle.addEventListener("click", () => {
-                if (document.body.className.includes("dark")) {
-                    document.body.classList.remove('dark');
-                    localStorage.setItem("pref-theme", 'light');
-                } else {
-                    document.body.classList.add('dark');
-                    localStorage.setItem("pref-theme", 'dark');
-                }
-            });
-        }
-    });
-</script>
-</body>
+    <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__content" style="text-align: center; font-size: 0.9em; color: #666; padding-top: 1em;">
+        <p>&copy; 2025 Safe CCTV</p>
+  
+        <div style="margin: 0.5em 0;">
+          👁 <span id="busuanzi_value_site_pv">...</span> views | 
+          🧑‍🤝‍🧑 <span id="busuanzi_value_site_uv">...</span> visitors
+        </div>
+  
+        <p style="font-size: 0.8em; color: #999;">
+          Dibangun dengan <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> •
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> •
+          <a href="/kebijakan-privasi/">Privasi</a> •
+          <a href="/ketentuan-penggunaan/">Ketentuan</a>
+        </p>
+      </div>
+    </div>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  </footer>
+  </body>
 
 </html>

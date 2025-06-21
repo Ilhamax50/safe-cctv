@@ -1,0 +1,126 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+      {{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description | safeHTML }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content | safeHTML }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+
+    <!-- Post Stats (Likes and Views) with Firebase -->
+    <div id="post-stats" style="margin-top: 20px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+      <div id="like-container">
+        <button id="likeBtn">❤️ Suka (<span id="likeCount">0</span>)</button>
+      </div>
+      <div id="view-container" style="font-size: 0.9em; color: var(--secondary-text-color);">
+        <span>👁️ Dilihat <span id="viewCount">0</span> kali</span>
+      </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+      // Impor fungsi-fungsi dari Firebase SDK v9
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+      import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQg_DHBrxUqjbXyUoAFPWAIQuNZAD9wGs",
+        authDomain: "safe-cctv-blog-post-like.firebaseapp.com",
+        databaseURL: "https://safe-cctv-blog-post-like-default-rtdb.firebaseio.com",
+        projectId: "safe-cctv-blog-post-like",
+        storageBucket: "safe-cctv-blog-post-like.firebasestorage.app",
+        messagingSenderId: "985469144384",
+        appId: "1:985469144384:web:653bf30ebc78239690bea5",
+        measurementId: "G-DLGXGKW7WK"
+      };
+
+      // Gunakan .RelPermalink untuk ID yang unik dan bersihkan karakter ilegal untuk Firebase key
+      const pageId = "{{ .RelPermalink }}".replace(/[.#$[\]/]/g, '_');
+      
+      // Inisialisasi Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase(app);
+
+      // --- Like Button Logic ---
+      const likeRef = ref(db, 'likes/' + pageId);
+      const likeButton = document.getElementById("likeBtn");
+      onValue(likeRef, (snapshot) => {
+        document.getElementById("likeCount").innerText = snapshot.val() || 0;
+      });
+      if (localStorage.getItem('liked-' + pageId)) {
+          likeButton.disabled = true;
+          likeButton.innerHTML = "❤️ Terima kasih!";
+      }
+      likeButton.addEventListener("click", () => {
+        runTransaction(likeRef, (currentLikes) => (currentLikes || 0) + 1);
+        likeButton.disabled = true;
+        likeButton.innerHTML = "❤️ Terima kasih!";
+        localStorage.setItem('liked-' + pageId, 'true');
+      });
+
+      // --- View Counter Logic ---
+      const viewRef = ref(db, 'views/' + pageId);
+      // Tingkatkan jumlah tayangan setiap kali halaman dimuat
+      runTransaction(viewRef, (currentViews) => (currentViews || 0) + 1);
+      // Tampilkan jumlah tayangan
+      onValue(viewRef, (snapshot) => {
+        document.getElementById("viewCount").innerText = snapshot.val() || 0;
+      });
+    </script>
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+{{- end }}{{/* end main */}}
