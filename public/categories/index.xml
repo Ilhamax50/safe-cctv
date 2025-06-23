@@ -5,9 +5,16 @@
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Safe CCTV Website</description>
     <generator>Hugo -- 0.147.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Jun 2025 10:00:00 +0700</lastBuildDate>
+    <language>en-en</language>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teknologi CCTV Terkini</title>
+      <link>http://localhost:1313/categories/teknologi-cctv-terkini/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/teknologi-cctv-terkini/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Review Produk</title>
       <link>http://localhost:1313/categories/review-produk/</link>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/categories/promo--diskon-safe-cctv/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/promo--diskon-safe-cctv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Teknologi CCTV Terkini</title>
-      <link>http://localhost:1313/categories/teknologi-cctv-terkini/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/teknologi-cctv-terkini/</guid>
       <description></description>
     </item>
     <item>

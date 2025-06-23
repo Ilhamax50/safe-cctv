@@ -5,9 +5,44 @@
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Safe CCTV Website</description>
     <generator>Hugo -- 0.147.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Jun 2025 10:00:00 +0700</lastBuildDate>
+    <language>en-en</language>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI CCTV</title>
+      <link>http://localhost:1313/tags/ai-cctv/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-cctv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dahua</title>
+      <link>http://localhost:1313/tags/dahua/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dahua/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WizSense</title>
+      <link>http://localhost:1313/tags/wizsense/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wizsense/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XVR</title>
+      <link>http://localhost:1313/tags/xvr/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xvr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XVR5104HS-I3</title>
+      <link>http://localhost:1313/tags/xvr5104hs-i3/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xvr5104hs-i3/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CCTV Global</title>
       <link>http://localhost:1313/tags/cctv-global/</link>
@@ -167,20 +202,6 @@
       <link>http://localhost:1313/tags/umkm/</link>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/umkm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI CCTV</title>
-      <link>http://localhost:1313/tags/ai-cctv/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-cctv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dahua</title>
-      <link>http://localhost:1313/tags/dahua/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dahua/</guid>
       <description></description>
     </item>
     <item>
