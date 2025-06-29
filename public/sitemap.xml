@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/dc-female-2.1x5.5mm/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jack-awet/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jack-bnc-cctv/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jack-dc-cctv/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jack-taiwan/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/konektor-cctv/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/rg6/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/tips-instalasi-cctv/</loc>
+    <lastmod>2025-06-29T21:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/ai-cctv/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/dahua/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/cctv-dengan-teknologi-ai-termurah/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/teknologi-cctv-terkini/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -54,16 +64,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/xvr5104hs-i3/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/kebijakan-privasi/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/ketentuan-penggunaan/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -97,17 +97,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/review-produk/</loc>
-    <lastmod>2025-06-17T10:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/sejarah-cctv/</loc>
-    <lastmod>2025-06-17T10:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/sejarah-cctv-hikvision/</loc>
     <lastmod>2025-06-17T10:00:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -137,23 +127,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/panduan-cctv/</loc>
-    <lastmod>2025-06-17T08:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/pasang-cctv/</loc>
     <lastmod>2025-06-17T08:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/pasang-cctv-jakarta/</loc>
-    <lastmod>2025-06-17T08:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/10-merek-cctv-terbaik-yang-digunakan-di-indonesia/</loc>
-    <lastmod>2025-06-16T08:00:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -182,11 +157,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/perbandingan-produk/</loc>
-    <lastmod>2025-06-16T08:00:00+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/rekomendasi-cctv/</loc>
     <lastmod>2025-06-16T08:00:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -203,16 +173,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/paket-cctv-hemat/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/rekomendasi-paket-cctv-hemat-untuk-pengguna-rumahan-dan-umkm/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/solusi-cctv-murah--terjangkau/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -247,17 +207,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/promo--diskon-safe-cctv/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/promo-cctv/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/promo-paket-cctv-hilook-4ch-2-kamera/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -268,11 +218,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/smart-camera/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/teknologi-cctv-terkini/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -297,16 +242,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/paket-promo-cctv-hikvision-4ch-colorvu-audio-3k/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/promo-cctv-dahua-hero-a1-2mp/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/promo-hikvision/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,11 +249,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/smart-cctv/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/cctv/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -332,42 +262,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/keamanan/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/panduan-lengkap-memilih-cctv-hikvision-untuk-keamanan-rumah/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/promo-menarik-ezviz-c6n/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/teknologi/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/teknologi/</loc>
     <lastmod>2025-04-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/cara-pasang-cctv-sendiri/</loc>
-    <lastmod>2025-04-27T16:07:40+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/diy/</loc>
-    <lastmod>2025-04-27T16:07:40+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/tips--panduan/</loc>
     <lastmod>2025-04-27T16:07:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -387,17 +287,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/layanan/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/maintenance/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/mengapa-safe-cctv-cocok-sebagai-patner-bisnis-anda/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -412,29 +302,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/pentingnya-memasang-cctv/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/sistem-keamanan-rumah/</loc>
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

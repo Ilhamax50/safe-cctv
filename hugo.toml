@@ -77,7 +77,7 @@ enableRobotsTXT = true
     linkedin     = "https://www.linkedin.com/in/fatah-ilham-maulana/"
     whatsapp     = "https://wa.me/628983997569"
     youtube      = "https://www.youtube.com/@safe-cctv"
-    tiktok       = "https://tiktok.com/@safecctv"
+    tiktok       = "https://tiktok.com/@safe.cctv"
 
   # SEO Settings
   [params.seo]
