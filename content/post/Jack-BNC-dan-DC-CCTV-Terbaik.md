@@ -30,6 +30,8 @@ Jack BNC ini dirancang khusus untuk kabel coaxial RG6 maupun RG59. Memiliki desa
 - Desain pengunci **kuat dan presisi tinggi** untuk hasil maksimal.
 - **Gambar jernih, bebas interferensi**, dan sinyal lebih stabil.
 
+**Beli di:** [Link Shopee Jack BNC CCTV Premium Taiwan](https://s.shopee.co.id/50Ngi1DBqL)
+
 ---
 
 ![Jack DC Female Taiwan terminal baut ujung kuning](/img/dc.jpg)
@@ -55,6 +57,8 @@ Jack DC female ini cocok untuk berbagai perangkat elektronik. Memiliki **termina
   - Peralatan elektronik lainnya
 - **Anti gagal**, tidak mudah lepas.
 - Produk original dari Taiwan dengan **material premium** dan kualitas unggulan.
+
+**Beli di:** [Link Shopee Jack DC CCTV Premium Taiwan](https://s.shopee.co.id/1BAy9FtybB)
 
 ---
 
