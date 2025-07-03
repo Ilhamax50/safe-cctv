@@ -9,12 +9,20 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
+[outputFormats.Sitemap]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isPlainText = false
+  notAlternative = true
+  rel = "sitemap"
+
+
 [outputs]
   home = ["HTML", "RSS", "JSON", "Sitemap"]
   taxonomy = ["HTML", "RSS", "Sitemap"]
   page = ["HTML", "Sitemap"]
   section = ["HTML", "Sitemap"]
-  taxonomyTerm = ["HTML"]
+  taxonomyTerm = ["HTML", "Sitemap"]
 
 [sitemap]
   changefreq = "weekly"
