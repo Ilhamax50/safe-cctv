@@ -12,6 +12,9 @@ enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON", "Sitemap"]
   taxonomy = ["HTML", "RSS", "Sitemap"]
+  page = ["HTML", "Sitemap"]
+  section = ["HTML", "Sitemap"]
+  taxonomyTerm = ["HTML"]
 
 [sitemap]
   changefreq = "weekly"
