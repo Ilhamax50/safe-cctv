@@ -1,6 +1,6 @@
 baseURL        = "https://safecctv.my.id/"
 languageCode   = "en-en"
-title          = "Safe CCTV Website"
+title          = "Distributor & Jasa Pasang CCTV"
 theme          = "PaperMod"
 enableRobotsTXT = true
 
@@ -48,7 +48,8 @@ enableRobotsTXT = true
   ShowAllPagesInArchive = true
   ShowPageNums = true
   ShowWordCount = true
-
+  env = "production"
+  googleAnalytics = "G-VDLWQ5JVLX"
 
   # Profile
   [params.profile]

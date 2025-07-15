@@ -4,8 +4,8 @@
         <p>&copy; {{ now.Year }} Safe CCTV</p>
   
         <div style="margin: 0.5em 0;">
-          👁 <span id="busuanzi_value_site_pv">...</span> views | 
-          🧑‍🤝‍🧑 <span id="busuanzi_value_site_uv">...</span> visitors
+          👁 <span id="firebase_site_views">...</span> views | 
+          🧑‍🤝‍🧑 <span id="firebase_site_visitors">...</span> visitors
         </div>
   
         <p style="font-size: 0.8em; color: #999;">
@@ -16,6 +16,42 @@
         </p>
       </div>
     </div>
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+      import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQg_DHBrxUqjbXyUoAFPWAIQuNZAD9wGs",
+        authDomain: "safe-cctv-blog-post-like.firebaseapp.com",
+        databaseURL: "https://safe-cctv-blog-post-like-default-rtdb.firebaseio.com",
+        projectId: "safe-cctv-blog-post-like",
+        storageBucket: "safe-cctv-blog-post-like.firebasestorage.app",
+        messagingSenderId: "985469144384",
+        appId: "1:985469144384:web:653bf30ebc78239690bea5",
+        measurementId: "G-DLGXGKW7WK"
+      };
+
+      // Inisialisasi Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase(app);
+
+      // Counter views global
+      const siteViewsRef = ref(db, 'site_stats/views');
+      runTransaction(siteViewsRef, (currentViews) => (currentViews || 0) + 1);
+      onValue(siteViewsRef, (snapshot) => {
+        document.getElementById("firebase_site_views").innerText = snapshot.val() || 0;
+      });
+
+      // Counter unique visitors global (berbasis localStorage)
+      const siteVisitorsRef = ref(db, 'site_stats/visitors');
+      const visitorKey = 'firebase-unique-visitor';
+      if (!localStorage.getItem(visitorKey)) {
+        runTransaction(siteVisitorsRef, (currentVisitors) => (currentVisitors || 0) + 1);
+        localStorage.setItem(visitorKey, 'true');
+      }
+      onValue(siteVisitorsRef, (snapshot) => {
+        document.getElementById("firebase_site_visitors").innerText = snapshot.val() || 0;
+      });
+    </script>
   </footer>
   
