@@ -1,8 +1,11 @@
 baseURL        = "https://safecctv.my.id/"
-languageCode   = "en-en"
-title          = "Distributor & Jasa Pasang CCTV"
+languageCode   = "id-id"
+title          = "Safe CCTV - Distributor & Jasa Pasang CCTV"
 theme          = "PaperMod"
 enableRobotsTXT = true
+
+# Global description untuk website
+description = "Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda. Jasa pasang CCTV Jakarta Barat, Kemanggisan, Palmerah. Harga terjangkau, garansi resmi."
 
 [markup]
   [markup.goldmark]
@@ -15,7 +18,6 @@ enableRobotsTXT = true
   isPlainText = false
   notAlternative = true
   rel = "sitemap"
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "Sitemap"]
@@ -31,7 +33,7 @@ enableRobotsTXT = true
   lastmod = "2006-01-02T15:04:05-07:00"
 
 [params]
-  subtitle        = "safe cctv"
+  subtitle        = "Distributor & Jasa Pasang CCTV Jakarta"
   showPostCover   = true
   showLogo        = true
   logo            = "/img/logo-safe-cctv.webp"
@@ -50,6 +52,15 @@ enableRobotsTXT = true
   ShowWordCount = true
   env = "production"
   googleAnalytics = "G-VDLWQ5JVLX"
+
+  # SEO Settings
+  [params.seo]
+    description = "Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda. Jasa pasang CCTV Jakarta Barat, Kemanggisan, Palmerah. Harga terjangkau, garansi resmi."
+    keywords = "cctv, keamanan, pemasangan cctv, maintenance cctv, kamera keamanan, cctv kemanggisan, cctv jakarta barat, cctv palmerah, jasa pasang cctv kemanggisan, jasa pasang cctv palmerah, jasa pasang cctv jakarta barat"
+    author = "Safe CCTV Team"
+    image = "/img/logo-safe-cctv.webp"
+    robots = "index, follow"
+    locale = "id_ID"
 
   # Profile
   [params.profile]
@@ -90,13 +101,6 @@ enableRobotsTXT = true
     whatsapp     = "https://wa.me/628983997569"
     youtube      = "https://www.youtube.com/@safe-cctv"
     tiktok       = "https://tiktok.com/@safe.cctv"
-
-  # SEO Settings
-  [params.seo]
-    description = "Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda"
-    keywords = "cctv, keamanan, pemasangan cctv, maintenance cctv, kamera keamanan, cctv kemanggisan, cctv jakarta barat, cctv palmerah, jasa pasang cctv kemanggisan, jasa pasang cctv palmerah, jasa pasang cctv jakarta barat"
-    author = "Safe CCTV Team"
-    image = "/img/logo-safe-cctv.webp"
 
   # custom CSS
   customCSS      = ["css/extra.css"]
