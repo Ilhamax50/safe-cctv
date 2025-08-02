@@ -311,6 +311,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/cari-artikel-cctv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/cari-layanan-pemasangan-cctv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/cctv-jakarta/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -331,6 +339,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/fitur-pencarian-safe-cctv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/hubungi-kami/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -344,6 +356,18 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/jasa-cctv-terpercaya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jasa-pasang-cctv-jakarta-barat/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jasa-pasang-cctv-kemanggisan/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jasa-pasang-cctv-palmerah/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -379,11 +403,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/pencarian-kamera-pengawas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/perusahaan-keamanan/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/post-safe-cctv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/search-safe-cctv/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
