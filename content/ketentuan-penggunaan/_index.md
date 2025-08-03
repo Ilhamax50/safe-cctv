@@ -1,5 +1,6 @@
 ---
 title: "Ketentuan Penggunaan"
+description: "Ketentuan penggunaan website Safe CCTV. Pelajari hak dan kewajiban pengguna, kebijakan konten, layanan, dan tanggung jawab dalam menggunakan layanan kami."
 date: 2025-06-21
 ---
 

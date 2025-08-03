@@ -4,7 +4,25 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://cdnjs.cloudflare.com https://*.firebaseio.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data: https: http:; connect-src 'self' https://*.firebaseio.com https://*.firebase.com https://www.googleapis.com wss://*.firebaseio.com wss://*.firebase.com ws://localhost:* http://localhost:*; frame-src 'self' https://*.firebaseio.com https://*.firebase.com; object-src 'none'; base-uri 'self'; form-action 'self'; require-trusted-types-for 'script';">
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' https://www.gstatic.com https://cdnjs.cloudflare.com https://*.firebaseio.com;
+  style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+  font-src 'self' https://cdnjs.cloudflare.com;
+  img-src 'self' data: https: http:;
+  media-src 'self';
+  connect-src 'self' https://*.firebaseio.com https://*.firebase.com https://www.googleapis.com wss://*.firebaseio.com wss://*.firebase.com ws://localhost:* http://localhost:*;
+  frame-src 'self' https://*.firebaseio.com https://*.firebase.com;
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+  block-all-mixed-content;
+">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-XSS-Protection" content="1; mode=block">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
 <meta name="robots" content="index, follow">
 <title>Keamanan Rumah | Safe CCTV - Distributor &amp; Jasa Pasang CCTV</title>
 <meta name="keywords" content="">
@@ -36,6 +54,7 @@
 <meta name="twitter:description" content="Safe CCTV - Penyedia layanan CCTV profesional untuk keamanan properti Anda. Jasa pasang CCTV Jakarta Barat, Kemanggisan, Palmerah. Harga terjangkau, garansi resmi.">
 <meta name="twitter:image" content="http://localhost:1313/img/logo-safe-cctv.webp">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="stylesheet">
+<link rel="preload" as="image" href="http://localhost:1313/img/logo-safe-cctv.webp" type="image/webp">
 <link rel="dns-prefetch" href="//www.gstatic.com">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//safe-cctv-blog-post-like-default-rtdb.firebaseio.com">
@@ -682,6 +701,7 @@ Mengapa CCTV Penting untuk Keamanan? 1. Mencegah Kejahatan Pemasangan kamera CCT
     </div>
   </div>
 
+  <script src="/js/theme-toggle.js"></script>
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
     import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
@@ -706,7 +726,10 @@ Mengapa CCTV Penting untuk Keamanan? 1. Mencegah Kejahatan Pemasangan kamera CCT
     runTransaction(siteViewsRef, (currentViews) => (currentViews || 0) + 1);
     onValue(siteViewsRef, (snapshot) => {
       const viewsEl = document.getElementById("firebase_site_views");
-      if (viewsEl) viewsEl.textContent = snapshot.val() ?? 0;
+      if (viewsEl) {
+        const count = snapshot.val() ?? 0;
+        viewsEl.textContent = count.toString();
+      }
     });
 
     
@@ -718,7 +741,10 @@ Mengapa CCTV Penting untuk Keamanan? 1. Mencegah Kejahatan Pemasangan kamera CCT
     }
     onValue(siteVisitorsRef, (snapshot) => {
       const visitorEl = document.getElementById("firebase_site_visitors");
-      if (visitorEl) visitorEl.textContent = snapshot.val() ?? 0;
+      if (visitorEl) {
+        const count = snapshot.val() ?? 0;
+        visitorEl.textContent = count.toString();
+      }
     });
   </script>
 </footer>

@@ -1,5 +1,6 @@
 ---
 title: "Gunakan Jack BNC CCTV dan Jack DC CCTV Tipe Ini Dijamin Awet Seumur Hidup"
+description: "Panduan lengkap memilih jack BNC CCTV dan jack DC CCTV berkualitas tinggi dari Taiwan. Tips instalasi konektor awet untuk sistem CCTV yang stabil dan tahan lama."
 date: 2025-06-29T21:00:00+07:00
 categories: ["Tips Instalasi CCTV"]
 tags: ["jack BNC CCTV", "jack DC CCTV", "tips instalasi CCTV", "konektor CCTV", "jack awet", "jack Taiwan", "RG6", "DC female 2.1x5.5mm"]

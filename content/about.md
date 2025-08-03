@@ -1,5 +1,6 @@
 ---
 title: "Tentang Kami"
+description: "Safe CCTV adalah perusahaan terpercaya di bidang keamanan dan pengawasan berbasis teknologi. Kami menyediakan solusi CCTV terbaik untuk rumah, kantor, dan bisnis di Jakarta Barat, Kemanggisan, dan Palmerah."
 tags: ["tentang safe cctv", "layanan cctv", "perusahaan keamanan", "instalasi cctv", "cctv jakarta", "jasa cctv terpercaya", "cctv kemanggisan", "cctv palmerah", "cctv jakarta barat", "jasa pasang cctv jakarta barat", "jasa pasang cctv kemanggisan", "jasa pasang cctv palmerah", "jasa pasang cctv jakarta"]
 menu:
     main:

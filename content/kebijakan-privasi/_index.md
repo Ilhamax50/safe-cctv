@@ -1,5 +1,6 @@
 ---
 title: "Kebijakan Privasi"
+description: "Kebijakan privasi Safe CCTV. Pelajari bagaimana kami melindungi data pribadi Anda, data yang dikumpulkan, dan penggunaan informasi dalam layanan CCTV kami."
 date: 2025-06-21
 ---
 

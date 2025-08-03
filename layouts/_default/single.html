@@ -94,7 +94,11 @@
       const likeRef = ref(db, 'likes/' + pageId);
       const likeButton = document.getElementById("likeBtn");
       onValue(likeRef, (snapshot) => {
-        document.getElementById("likeCount").innerText = snapshot.val() || 0;
+        const count = snapshot.val() || 0;
+        const countElement = document.getElementById("likeCount");
+        if (countElement) {
+          countElement.textContent = count.toString();
+        }
       });
       if (localStorage.getItem('liked-' + pageId)) {
           likeButton.disabled = true;
@@ -113,7 +117,11 @@
       runTransaction(viewRef, (currentViews) => (currentViews || 0) + 1);
       // Tampilkan jumlah tayangan
       onValue(viewRef, (snapshot) => {
-        document.getElementById("viewCount").innerText = snapshot.val() || 0;
+        const count = snapshot.val() || 0;
+        const countElement = document.getElementById("viewCount");
+        if (countElement) {
+          countElement.textContent = count.toString();
+        }
       });
     </script>
   </footer>
