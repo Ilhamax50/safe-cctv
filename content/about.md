@@ -85,7 +85,7 @@ menu:
   <div style="background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); margin-bottom: 30px;">
     <div class="company-info" style="display: flex; align-items: center; gap: 30px;">
       <img src="/images/about/company-logo.png" alt="Safe CCTV Logo" style="width: 150px; height: auto;"/>
-      <p style="font-size: 1.1em; line-height: 1.6; margin: 0;">Safe CCTV adalah perusahaan yang bergerak di bidang keamanan dan pengawasan berbasis teknologi. Kami menyediakan solusi CCTV terbaik untuk kebutuhan rumah, kantor, dan bisnis Anda.</p>
+      <p style="font-size: 1.1em; line-height: 1.6; margin: 0;">Safe CCTV adalah perusahaan yang bergerak di bidang keamanan dan pengawasan berbasis teknologi yang terdaftar resmi Menteri Investasi dan Hilirisasi/Kepala Badan Koordinasi Penanaman Modal dengan NOMOR INDUK BERUSAHA: 0311240001027. Kami menyediakan solusi CCTV terbaik untuk kebutuhan rumah, kantor, dan bisnis anda.</p>
     </div>
   </div>
 
