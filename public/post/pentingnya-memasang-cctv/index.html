@@ -844,51 +844,7 @@ Investasikan pada sistem keamanan terbaik untuk ketenangan pikiran Anda. Hubungi
   </div>
 
   <script src="/js/theme-toggle.js"></script>
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-    import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyBQg_DHBrxUqjbXyUoAFPWAIQuNZAD9wGs",
-      authDomain: "safe-cctv-blog-post-like.firebaseapp.com",
-      databaseURL: "https://safe-cctv-blog-post-like-default-rtdb.firebaseio.com",
-      projectId: "safe-cctv-blog-post-like",
-      storageBucket: "safe-cctv-blog-post-like.appspot.com",
-      messagingSenderId: "985469144384",
-      appId: "1:985469144384:web:653bf30ebc78239690bea5",
-      measurementId: "G-DLGXGKW7WK"
-    };
-
-    
-    const app = initializeApp(firebaseConfig);
-    const db = getDatabase(app);
-
-    
-    const siteViewsRef = ref(db, 'site_stats/views');
-    runTransaction(siteViewsRef, (currentViews) => (currentViews || 0) + 1);
-    onValue(siteViewsRef, (snapshot) => {
-      const viewsEl = document.getElementById("firebase_site_views");
-      if (viewsEl) {
-        const count = snapshot.val() ?? 0;
-        viewsEl.textContent = count.toString();
-      }
-    });
-
-    
-    const siteVisitorsRef = ref(db, 'site_stats/visitors');
-    const visitorKey = 'firebase-unique-visitor';
-    if (!localStorage.getItem(visitorKey)) {
-      runTransaction(siteVisitorsRef, (currentVisitors) => (currentVisitors || 0) + 1);
-      localStorage.setItem(visitorKey, 'true');
-    }
-    onValue(siteVisitorsRef, (snapshot) => {
-      const visitorEl = document.getElementById("firebase_site_visitors");
-      if (visitorEl) {
-        const count = snapshot.val() ?? 0;
-        visitorEl.textContent = count.toString();
-      }
-    });
-  </script>
+  <script type="module" src="/js/firebase-stats.js"></script>
 </footer>
 </body>
 
