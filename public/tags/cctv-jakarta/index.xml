@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cctv Jakarta on Safe CCTV - Distributor &amp; Jasa Pasang CCTV</title>
-    <link>http://localhost:62531/tags/cctv-jakarta/</link>
+    <link>http://localhost:1313/tags/cctv-jakarta/</link>
     <description>Recent content in Cctv Jakarta on Safe CCTV - Distributor &amp; Jasa Pasang CCTV</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>id-id</language>
-    <atom:link href="http://localhost:62531/tags/cctv-jakarta/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cctv-jakarta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tentang Kami</title>
-      <link>http://localhost:62531/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62531/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Safe CCTV adalah perusahaan terpercaya di bidang keamanan dan pengawasan berbasis teknologi. Kami menyediakan solusi CCTV terbaik untuk rumah, kantor, dan bisnis di Jakarta Barat, Kemanggisan, dan Palmerah.</description>
     </item>
   </channel>
