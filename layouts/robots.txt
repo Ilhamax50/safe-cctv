@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /sitemap.xml
+Disallow: /.lp
+Disallow: /firebaseio.com/
 
-Sitemap: https://safecctv.my.id/sitemap.xml/ 
+Sitemap: https://safecctv.my.id/sitemap.xml/
