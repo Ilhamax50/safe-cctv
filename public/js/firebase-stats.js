@@ -1,83 +1,71 @@
-// Firebase Statistics - Safe CCTV
-// Menggunakan Firebase v10.7.1 dengan metode yang tidak deprecated
+// Site Statistics - Safe CCTV
+// Menggunakan localStorage untuk menghindari masalah Firebase
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getDatabase, ref, onValue, get, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBQg_DHBrxUqjbXyUoAFPWAIQuNZAD9wGs",
-  authDomain: "safe-cctv-blog-post-like.firebaseapp.com",
-  databaseURL: "https://safe-cctv-blog-post-like-default-rtdb.firebaseio.com",
-  projectId: "safe-cctv-blog-post-like",
-  storageBucket: "safe-cctv-blog-post-like.appspot.com",
-  messagingSenderId: "985469144384",
-  appId: "1:985469144384:web:653bf30ebc78239690bea5",
-  measurementId: "G-DLGXGKW7WK"
-};
-
-// Inisialisasi Firebase dengan error handling
-try {
-  const app = initializeApp(firebaseConfig);
-  const db = getDatabase(app);
-
-  // Counter views global
-  const siteViewsRef = ref(db, 'site_stats/views');
+// Update site views
+function updateSiteViews() {
+  const currentViews = parseInt(localStorage.getItem('site_views') || '0');
+  const newViews = currentViews + 1;
+  localStorage.setItem('site_views', newViews.toString());
   
-  // Update views dengan metode yang lebih stabil
-  const updateViews = async () => {
-    try {
-      const snapshot = await get(siteViewsRef);
-      const currentViews = snapshot.val() || 0;
-      await set(siteViewsRef, currentViews + 1);
-    } catch (error) {
-      console.warn('Error updating views:', error);
-    }
-  };
-  
-  updateViews();
-  
-  // Listen untuk perubahan views
-  onValue(siteViewsRef, (snapshot) => {
-    const viewsEl = document.getElementById("firebase_site_views");
-    if (viewsEl) {
-      const count = snapshot.val() ?? 0;
-      viewsEl.textContent = count.toString();
-    }
-  }, (error) => {
-    console.warn('Error reading views:', error);
-  });
-
-  // Counter unique visitors global
-  const siteVisitorsRef = ref(db, 'site_stats/visitors');
-  const visitorKey = 'firebase-unique-visitor';
-  
-  // Update visitors hanya jika belum pernah dikunjungi
-  if (!localStorage.getItem(visitorKey)) {
-    const updateVisitors = async () => {
-      try {
-        const snapshot = await get(siteVisitorsRef);
-        const currentVisitors = snapshot.val() || 0;
-        await set(siteVisitorsRef, currentVisitors + 1);
-        localStorage.setItem(visitorKey, 'true');
-      } catch (error) {
-        console.warn('Error updating visitors:', error);
-      }
-    };
-    
-    updateVisitors();
+  const viewsElement = document.getElementById('views-count');
+  if (viewsElement) {
+    viewsElement.textContent = newViews.toLocaleString();
   }
+}
+
+// Update site visitors
+function updateSiteVisitors() {
+  const visitorId = getVisitorId();
+  const visitors = JSON.parse(localStorage.getItem('site_visitors') || '{}');
   
-  // Listen untuk perubahan visitors
-  onValue(siteVisitorsRef, (snapshot) => {
-    const visitorEl = document.getElementById("firebase_site_visitors");
-    if (visitorEl) {
-      const count = snapshot.val() ?? 0;
-      visitorEl.textContent = count.toString();
+  if (!visitors[visitorId]) {
+    visitors[visitorId] = {
+      timestamp: Date.now(),
+      userAgent: navigator.userAgent
+    };
+    localStorage.setItem('site_visitors', JSON.stringify(visitors));
+    
+    const totalVisitors = Object.keys(visitors).length;
+    const visitorsElement = document.getElementById('visitors-count');
+    if (visitorsElement) {
+      visitorsElement.textContent = totalVisitors.toLocaleString();
     }
-  }, (error) => {
-    console.warn('Error reading visitors:', error);
-  });
+  }
+}
+
+// Get or create visitor ID
+function getVisitorId() {
+  let visitorId = localStorage.getItem('visitor_id');
+  if (!visitorId) {
+    visitorId = 'visitor_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    localStorage.setItem('visitor_id', visitorId);
+  }
+  return visitorId;
+}
+
+// Display site statistics
+function displaySiteStats() {
+  const views = parseInt(localStorage.getItem('site_views') || '0');
+  const visitors = JSON.parse(localStorage.getItem('site_visitors') || '{}');
+  const totalVisitors = Object.keys(visitors).length;
   
-} catch (error) {
-  console.warn('Firebase initialization error:', error);
-} 
+  const viewsElement = document.getElementById('views-count');
+  const visitorsElement = document.getElementById('visitors-count');
+  
+  if (viewsElement) {
+    viewsElement.textContent = views.toLocaleString();
+  }
+  if (visitorsElement) {
+    visitorsElement.textContent = totalVisitors.toLocaleString();
+  }
+}
+
+// Initialize when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // Update statistics
+  updateSiteViews();
+  updateSiteVisitors();
+  
+  // Display current statistics
+  displaySiteStats();
+}); 
