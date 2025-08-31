@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/cctv-jakarta/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/cctv-publik/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/demo-buruh/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/demo-dpr/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/demo-jakarta/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/demo-ojol/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/jakarta/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/keamanan/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/teknologi/</loc>
+    <lastmod>2025-08-31T22:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/cctv/</loc>
     <lastmod>2025-08-24T21:49:58+07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,16 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/hikvision/</loc>
-    <lastmod>2025-08-24T21:49:58+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/keamanan/</loc>
-    <lastmod>2025-08-24T21:49:58+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/teknologi/</loc>
     <lastmod>2025-08-24T21:49:58+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -321,10 +356,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/cari-layanan-pemasangan-cctv/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/cctv-jakarta/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
